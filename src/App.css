@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+}
+
+body {
+  background: linear-gradient(to left, rgb(203, 139, 236), rgb(235, 208, 235));
+  overflow-y: hidden;
+}
+
+.container {
+  height: 90vh;
+  background-color: white;
+  margin: auto;
+  margin: 3rem 3rem;
+  display: flex;
+  box-shadow: 0px -1px 22px 0px #383838;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: rgb(169, 120, 169);
+}
+
+.left_container {
+  background-color: rgb(199, 89, 211);
+  padding: 2rem;
+  width: 50%;
+}
+
+.btn {
+  width: 75%;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin-top: -12px !important;
+  background-color: rgb(199, 89, 211);
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(132, 9, 146);
+  font-weight: 600;
+}
+
+textarea {
+  width: 33vw;
+  height: 53px;
+  margin-top: 0;
+  text-indent: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.right_container {
+  width: 50%;
+}
+
+.css-x8k870>:not(style) {
+  margin: 41px;
+}
+
+.right_container>h2 {
+  text-align: center;
+  color: purple;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-style: oblique
+}
+
+.left_container>img {
+  display: block;
+}
+
+@media screen and(min-width:345px) {
+  .left_container>img {
+    display: none;
+  }
+}
